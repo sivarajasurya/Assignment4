@@ -10,7 +10,6 @@ public class Country {
     static Map<String,String> find = new HashMap<>();
     static org.slf4j.Logger logger = LoggerFactory.getLogger(Country.class);
     static Scanner get = new Scanner(System.in);
-
     static JSONParser parser = new JSONParser();
     public static void main(String[] args) {
 
